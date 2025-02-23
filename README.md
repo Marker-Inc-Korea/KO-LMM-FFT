@@ -1,6 +1,4 @@
 # KO-LMM-FFT (full fine tuning)
-Korean Large MultiModal FFT Code
-  
 🍚Gukbap-LMM Series models🍚  
 **HumanF-MarkrAI/Gukbap-Gemma2-9B-VL🍚:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/HumanF-MarkrAI/Gukbap-Gemma2-9B-VL)   
 **HumanF-MarkrAI/Gukbap-Qwen2-34B-VL🍚:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/HumanF-MarkrAI/Gukbap-Qwen2-34B-VL)  
