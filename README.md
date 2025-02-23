@@ -78,7 +78,7 @@ python ovis_fullfine.py \
 | Ovis1.6-Gemma2-9B | 52.46 | 50.40 | 47.08 | 55.67 | 51.40 |
 | VARCO-VISION-14B | 87.16 | 58.13 | **85.42** | 51.17 | 70.47 | 
 | llama-3.2-Korean-Bllossom-AICA-5B	 | 26.01 | 21.60 | 17.08 | 45.33 | 27.51 |   
-> [Test code (ours)]().
+> [Test code (ours)](https://github.com/Marker-Inc-Korea/KoVLMEval).
    
 # Citation
 [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).  
