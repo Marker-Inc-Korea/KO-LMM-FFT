@@ -1,2 +1,2 @@
-# Korean-LMM-FFT
-Koream Large MultiModal FFT Code
+# KO-LMM-FFT (full fine tuning)
+Korean Large MultiModal FFT Code
