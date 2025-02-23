@@ -53,16 +53,18 @@ python ovis_fullfine.py \
 # Result🤗
 
 ## English VLM Evaluation
-| Model | 0-shot | 5-shot | 10-shot | 50-shot |
-| --- | --- | --- | --- | --- |
-| HumanF-MarkrAI/Gukbap-Qwen2-34B-VL | 0.5247 | 0.5260 | 0.5278 | 0.5427 |
-| HumanF-MarkrAI/Gukbap-Gemma2-9B-VL | 0.5707 | 0.5830 | 0.5670 | 0.5787 |
-| [Polyglot-ko-5.8b](https://huggingface.co/EleutherAI/polyglot-ko-5.8b) | 0.5976 | 0.5998 | 0.5979 | 0.6208 |
-| [Polyglot-ko-12.8b](https://huggingface.co/EleutherAI/polyglot-ko-12.8b) | 0.5954 | 0.6306 | 0.6098 | 0.6118 |
-| [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4518 | 0.4668 | 0.4726 | 0.4828 |
-| [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4562 | 0.4657 | 0.4698 | 0.4774 |   
-| **KO-platypus2-7B-EX(ours)** | 0.4571 | 0.4461 | 0.4371 | 0.4525 | 
-
+| Model | MMStar | MathVista | HallusionBench | AI2D | OCRBench | MMVet | MMBench_V11 | AVG |
+|:---------:|:-----:|:------:|:-----:|:-----:|:----:|:-----:|:-----:|:-----:|
+| Step-1o (closed model; SOTA) | 69.3 | **74.7** | **89.1** | 55.8 | **92.6** | **82.8** | 87.3 | **78.8** |
+| **HumanF-MarkrAI/Gukbap-Gemma2-9B-VL🍚** | 80.16 | 54.20 | 52.92 | 63.83 | 62.78 |
+| **HumanF-MarkrAI/Gukbap-Gemma2-9B-VL🍚** | 62.13 | 66.00 | 84.49 | 53.01 | 82.80 | 63.90 | 82.20 | **70.65** |
+| Ovis2-34B (Open) | 69.2 | 76.1 | 58.8 | 88.3 | 89.4 | 77.1 | 86.5 | 77.9 |
+| Ovis1.6-Gemma2-9B (Open) | 62.00 | 67.10 | 84.42 | 51.96 | 82.60 | 64.68 | 82.20 | 70.71 |
+| LLaVA-OneVision-72B | 65.8 | 68.4 | 47.9 | 86.2 | 74.1| 60.6 | 84.5 | 69.6 |
+| VARCO-VISION-14B (NCSoft) | 64.1 | 67.6 | 46.8 | 83.9 | 81.5 | 53.0 | 81.2 | 68.3 |
+| GPT-4o-mini-20240718 | 54.8 | 52.4 | 46.1 | 77.8 | 78.5 | 66.9 | 76.0 | 64.6 |
+> Using [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
+  
 ## Korean VLM Evaluation
 | Model | K-MMBench | K-MMStar| K-DTCBench | K-LLAVA-W | Average |
 | --- | --- | --- | --- | --- | --- |
@@ -73,7 +75,7 @@ python ovis_fullfine.py \
 | VARCO-VISION-14B | 87.16 | 58.13 | **85.42** | 51.17 | 70.47 | 
 | llama-3.2-Korean-Bllossom-AICA-5B	 | 26.01 | 21.60 | 17.08 | 45.33 | 27.51 |   
 > [Test code (ours)]().
-  
+   
 # Citation
 [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).  
 [AIDC-AI](https://huggingface.co/AIDC-AI).  
