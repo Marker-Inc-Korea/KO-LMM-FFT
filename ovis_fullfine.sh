@@ -1,5 +1,3 @@
-#export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
-
 python ovis_fullfine.py \
     --base_model AIDC-AI/Ovis2-34B \
     --data-path  ...train_path... \
