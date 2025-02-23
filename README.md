@@ -6,7 +6,11 @@
 # LMM Training⭐
 In training, the datasets are private.  
 Our dataset consists of **text only**!!!  
-   
+```sh
+# Quick Start
+sh ovis_fullfine.sh
+```
+    
 ## Gukbap-Gemma2-9B-VL🍚
 ```sh
 # ovis_fullfine.sh
