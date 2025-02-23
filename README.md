@@ -52,7 +52,7 @@ python ovis_fullfine.py \
 > transformers==4.46.2 (recommend)
 
 # Blog🔥
-[Gukbap-LMM blog🔥]().
+[Gukbap-LMM blog🔥](https://kyujinpy.tistory.com/169).
   
 # Result🤗
 
